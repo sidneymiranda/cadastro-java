@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<taglib>
+	<tlibversion>1.0</tlibversion>
+	<jspversion>2.0</jspversion>
+	<shortname>taglibAge</shortname>
+	<info>Taglib para retornar a idade baseada na data de nascimento</info>
+	<uri>/WEB-INF/tld/calcAge</uri>
+
+	<tag>
+		<name>calcAge</name>
+		<tagclass>taglib.CalcAgeTagLib</tagclass>
+		
+		<attribute>
+			<name>dob</name>
+			<type>java.lang.String</type>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	
+		<dynamic-attributes>true</dynamic-attributes>
+		<bodycontent>empty</bodycontent>
+	</tag>
+
+</taglib>

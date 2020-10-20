@@ -1,0 +1,63 @@
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+a {
+	text-decoration: none;
+	font-size: 1.5rem;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 20rem;
+	height: 30rem;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.form .buttons {
+	display: flex;
+	flex-grow: inherit;
+	width: 100%;
+}
+
+.form input[type="submit"], input[type="reset"]{
+	width: 50% !important;
+	height: 2rem;	
+	margin-top: 0.6rem;
+}
+
+.form input {
+	width: 100%;
+	outline: none;
+	height: 2rem;
+}
+
+.table {
+	border: none;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+caption {
+	margin-bottom: 2rem;
+	font-size: 1.5rem;
+}
+
+.table tr:nth-child(even) {
+	background: #bbf;
+}
+
+.table tr:nth-child(odd) {
+	background: #FFF;
+}
+
+.table td, .table th {
+	padding: 0.6rem 2rem;
+	text-align: center;
+	font-size: 1.5rem;
+}
